@@ -50,7 +50,9 @@ li{
 
 
 .video-com-logo{    
-    background-image: url("imgs/fundo-cachoeira.jpg");
+   background-image: url("imgs/fundo-cachoeira.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 .video-com-logo h2{
