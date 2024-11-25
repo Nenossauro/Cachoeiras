@@ -26,7 +26,7 @@ nav{
     height: 5%;
     width: 100%;
     
-    border-bottom: var(--border-grossura) solid black;
+    border-bottom: var(--border-grossura) solid #333333;
 }
 ul{
     height: 100%;
@@ -50,14 +50,14 @@ li{
 
 }
 .video-com-logo h2{
-    color: white;    
+    color: #e0e6e6;    
     margin-left: 8%;
 }
 
 
 section{
-    border-top: var(--border-grossura) solid black;
-    border-bottom: var(--border-grossura) solid black;
+    border-top: var(--border-grossura) solid #333333;
+    border-bottom: var(--border-grossura) solid #333333;
     margin-bottom: 5rem;
     background-color: #007573;
     width: 100%;
@@ -80,7 +80,7 @@ article{
     height: 400px;
 }
 .div-carrossel{
-    border: 2px solid black;
+    border: 2px solid #333333;
     height: 100%;
     width: 50%;
     background-color: #007573;
@@ -103,15 +103,15 @@ article{
 
 
 .dicas{
-    color: white;
+    color: #e0e6e6;
     flex-direction: column;
-    border: 6px solid black;
+    border: 6px solid #333333;
     border-radius: 30px;
     padding: 50px;
     background-color: #007573;
 }
 #localizacao h2{
-    color: white;
+    color: #e0e6e6;
 }
 
 .section-duvidas{
@@ -120,7 +120,7 @@ article{
 
 .section-duvidas h2{
     margin-top: 3rem;
-    color: white;
+    color: #e0e6e6;
 }
 
 .caixa-duvidas{
@@ -131,22 +131,22 @@ article{
 
 .article-duvidas{
     width: 22%;
-    background-color: white;
+    background-color: #e0e6e6;
     height: fit-content;
     flex-direction: column;
-    border: 6px solid black;
+    border: 6px solid #333333;
     border-radius: 30px;
     padding: 50px;
 
 }
 
 footer{
-    color: white;
+    color: #e0e6e6;
     flex-direction: row;
     width: 100%;
     margin-top: auto; 
     height: 10%;
-    border-top: var(--border-grossura) solid black;
+    border-top: var(--border-grossura) solid #333333;
     background-color: #007573;
 }
 
@@ -265,9 +265,19 @@ address{
     .dicas {
         padding: 20px; /* Menos padding */
     }
+    footer ul{
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
 
-    footer{
-        display: none;
+    }
+
+    footer ul a{
+        display: flex;
+    }
+    ul h3{
+        margin-bottom: 3rem;
     }
     iframe{
         width: 100%;
