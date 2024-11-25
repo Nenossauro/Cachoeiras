@@ -13,7 +13,9 @@ title,script{
     font-family: Roboto;
     --border-grossura: 1px;
 }
-
+a:hover{
+    color: #4BE3E0;
+}
 body{
     width: 100%;
     align-items: center;
