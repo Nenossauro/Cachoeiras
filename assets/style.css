@@ -157,9 +157,9 @@ footer{
     flex-direction: row;
     width: 100%;
     margin-top: auto; 
-    height: 10%;
+    height: 5%;
     border-top: var(--border-grossura) solid #333333;
-    background-color: #007573;
+    background-color: #333333;
 }
 
 .footer-ul{
