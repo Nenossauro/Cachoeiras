@@ -21,10 +21,11 @@ body{
     flex-direction: column;
 }
 nav{
-   
+    background-color: #4BE3E0;
+
     height: 5%;
     width: 100%;
-    position:static;
+    
     border-bottom: var(--border-grossura) solid black;
 }
 ul{
@@ -35,34 +36,29 @@ ul{
     align-items: center;
 }
 li{
+    margin-left: 10%;
     font-size: 1.5rem;
     font-weight: bolder;
     list-style: none;
 }
 
-#circulo-c, #circulo-b{
-    height: 55px;
-    width: 55px;
-    border-radius: 100px;
-    border: var(--border-grossura) solid black;
+
+
+
+.video-com-logo{
+    background-image: url("imgs/fundo-cachoeira.jpg");
+
 }
-
-#circulo-b{
-    background-color: lightgrey;
+.video-com-logo h2{
+    color: white;    
 }
-
-#circulo-c{
-    background-color: white;
-}
-
-
 
 
 section{
     border-top: var(--border-grossura) solid black;
     border-bottom: var(--border-grossura) solid black;
     margin-bottom: 5rem;
-    background-color: lightgray;
+    background-color: #007573;
     width: 100%;
     height: 600px;
     align-items: center;
@@ -73,7 +69,7 @@ h2{font-size: 3rem;}
 
 h3{width: 20%;}
 
-p{margin-top: 10px;}
+p{margin-top: 20px;}
 
 
 article{
@@ -86,11 +82,16 @@ article{
     border: 2px solid black;
     height: 100%;
     width: 50%;
-    background-color: lightgrey;
+    background-color: #007573;
     justify-content: center;
     align-items: center;
+    flex:1;
+    overflow: hidden;
 }
 
+.caixa-carrossel{
+    height: 400px;
+}
 
 .carrossel-texto{
     padding: 15px;
@@ -101,15 +102,24 @@ article{
 
 
 .dicas{
+    color: white;
     flex-direction: column;
     border: 6px solid black;
     border-radius: 30px;
     padding: 50px;
+    background-color: #007573;
 }
-
+#localizacao h2{
+    color: white;
+}
 
 .section-duvidas{
     flex-direction: column;
+}
+
+.section-duvidas h2{
+    margin-top: 3rem;
+    color: white;
 }
 
 .caixa-duvidas{
@@ -130,15 +140,44 @@ article{
 }
 
 footer{
+    color: white;
     flex-direction: row;
     width: 100%;
     margin-top: auto; 
     height: 10%;
     border-top: var(--border-grossura) solid black;
-    background-color: lightgray;
+    background-color: #007573;
 }
 
 .footer-ul{
     width: 100%;
 }
 
+footer li{
+    display: 	flex;
+    flex-direction: column;
+}
+
+address{
+    font-size: 15px;
+}
+
+
+/* CARROSSEL */
+
+.carrosel-fotos{
+  display: flex;
+  height: 400px;
+  width: 100%;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrosel-fotos img{
+    display: none;
+    width: 100%;
+}
+
+.carrosel-fotos img.active{
+    display: block;
+}
