@@ -13,7 +13,7 @@ title,script{
     font-family: Roboto;
     --border-grossura: 1px;
 }
-nav a:hover{
+a:hover{
     color: #4BE3E0;
 }
 body{
@@ -171,7 +171,9 @@ footer li{
 address{
     font-size: 15px;
 }
-
+address a{
+    color: #4BE3E0;
+}
 
 /* CARROSSEL */
 
