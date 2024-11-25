@@ -286,7 +286,9 @@ address a{
         flex-direction: column;
 
     }
-
+    footer{
+        height: 10%;
+    }
     footer ul a{
         display: flex;
     }
