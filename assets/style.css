@@ -205,29 +205,37 @@ address{
         margin: 10px 0; /* Espaçamento entre os itens */
     }
 
-    section, article, .caixa-duvidas, .caixa-carrossel, .div-carrossel, #localizacao, .carrosel-texto, footer {
+    section, .caixa-duvidas, .caixa-carrossel, .div-carrossel, #localizacao, .carrosel-texto, footer {
         display: flex;
-        justify-content: center; /* Centraliza os itens horizontalmente */
-        align-items: center; /* Centraliza os itens verticalmente */
+        justify-content: center;
+        align-items: center; 
         width: 100%;
     }
 
     section {
-        height: 500px; /* Ajusta a altura da seção */
-        flex-direction: column; /* Empilha os itens da seção verticalmente */
+        height: 500px; 
+        flex-direction: column;
     }
 
     h2 {
-        font-size: 2rem; /* Reduz o tamanho do título */
+        font-size: 2rem;
     }
+    h3{
+        width: 100%;
+        }
 
     article {
-        flex-direction: column; /* Alinha os itens na coluna */
+        flex-direction: column; 
         margin-bottom: 3rem;
-        align-items: center; /* Garante que o conteúdo dentro de article também seja centralizado */
+        align-items: center;
     }
-
-
+    .section-duvidas{
+        height: 700px;
+    }
+    .article-duvidas{
+        height: 300px;
+        width: 65%;
+    }
     .caixa-duvidas{
         display: flex;
         flex-direction: column;
@@ -248,8 +256,10 @@ address{
         flex-direction: column;
     }
 
-    .carrosel-texto {
-        width: 100%; 
+    .carrossel-texto {
+        width: 50%; 
+      
+        height: 500px;
     }
 
     .dicas {
@@ -258,6 +268,9 @@ address{
 
     footer{
         display: none;
+    }
+    iframe{
+        width: 100%;
     }
     
 }
