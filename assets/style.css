@@ -45,12 +45,13 @@ li{
 
 
 
-.video-com-logo{
+.video-com-logo{    
     background-image: url("imgs/fundo-cachoeira.jpg");
 
 }
 .video-com-logo h2{
     color: white;    
+    margin-left: 8%;
 }
 
 
@@ -180,4 +181,83 @@ address{
 
 .carrosel-fotos img.active{
     display: block;
+}
+
+
+
+@media (max-width: 768px) {
+    html{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    a{
+        display: none;
+    }
+    nav ul {
+        width: 100%;
+        justify-content: center; /* Centraliza a lista na navegação */
+        padding: 0;
+    }
+
+    li {
+        font-size: 1rem;
+        margin: 10px 0; /* Espaçamento entre os itens */
+    }
+
+    section, article, .caixa-duvidas, .caixa-carrossel, .div-carrossel, #localizacao, .carrosel-texto, footer {
+        display: flex;
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        align-items: center; /* Centraliza os itens verticalmente */
+        width: 100%;
+    }
+
+    section {
+        height: 500px; /* Ajusta a altura da seção */
+        flex-direction: column; /* Empilha os itens da seção verticalmente */
+    }
+
+    h2 {
+        font-size: 2rem; /* Reduz o tamanho do título */
+    }
+
+    article {
+        flex-direction: column; /* Alinha os itens na coluna */
+        margin-bottom: 3rem;
+        align-items: center; /* Garante que o conteúdo dentro de article também seja centralizado */
+    }
+
+
+    .caixa-duvidas{
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        
+        
+    }
+    .caixa-carrossel{
+        height: 1000px;
+    }
+    .div-carrossel {
+        width: 100%; 
+        height: 100%;
+    }
+    
+    #localizacao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carrosel-texto {
+        width: 100%; 
+    }
+
+    .dicas {
+        padding: 20px; /* Menos padding */
+    }
+
+    footer{
+        display: none;
+    }
+    
 }
