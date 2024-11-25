@@ -13,7 +13,7 @@ title,script{
     font-family: Roboto;
     --border-grossura: 1px;
 }
-a:hover{
+nav a:hover{
     color: #4BE3E0;
 }
 body{
