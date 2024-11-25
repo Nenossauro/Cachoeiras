@@ -23,12 +23,15 @@ body{
     flex-direction: column;
 }
 nav{
-    background-color: #007573;
+    background-color:  #e0e6e6;
 
     height: 5%;
     width: 100%;
     
     border-bottom: var(--border-grossura) solid #333333;
+}
+nav a{
+    color: #007573;
 }
 a{
     text-decoration: none;
